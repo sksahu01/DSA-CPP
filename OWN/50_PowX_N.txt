@@ -12,6 +12,8 @@ public:
             binForm= -binForm;
         }
         double ans=1;
+
+        //O(log n) - TC
         while(binForm > 0){
             if(binForm % 2 ==1){
                 ans*=x;
